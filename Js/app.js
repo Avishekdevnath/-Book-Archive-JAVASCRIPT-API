@@ -93,7 +93,7 @@ const displaySearchResult = (books) => {
             <img src="https://covers.openlibrary.org/b/id/${
               book.cover_i
             }-L.jpg" alt="${book.title}"
-                class="card-img-top img-fluid" style="height: 370px; border-radius: 10px" alt="...">
+                class="card-img-top img-fluid" style="height: 370px; border: 1px solid green; border-radius: 10px" alt="...">
             <div class="card-body">
                 <table class="table">
                     <tbody class="text-start">
